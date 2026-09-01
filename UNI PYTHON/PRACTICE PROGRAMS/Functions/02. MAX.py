@@ -7,4 +7,4 @@ def max(a , b, c):
     return max
 
 a, b, c = map(int, input("\nEnter three numbers separated by space to find the maximum: ").split())
-print(f"\nThe max value among {a}, {b} and {c} is {max(a, b, c)}\n")
+print(f"\nMaximum value among {a}, {b} and {c} is {max(a, b, c)}\n")
